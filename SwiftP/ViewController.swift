@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
+    @IBAction func hello(_ sender: Any) {
+        if self.myLabel.text == "hoge" {
+            self.myLabel.text = "foo"
+        } else {
+            self.myLabel.text = "hoge"
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
