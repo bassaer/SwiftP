@@ -15,6 +15,7 @@
 		A762DB0E20DE87ED00095927 /* SwiftPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762DB0D20DE87ED00095927 /* SwiftPTests.swift */; };
 		A762DB1920DE87ED00095927 /* SwiftPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762DB1820DE87ED00095927 /* SwiftPUITests.swift */; };
 		A762DB2720E7A00000095927 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762DB2620E7A00000095927 /* NumberViewController.swift */; };
+		A762DB2920E7C89D00095927 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762DB2820E7C89D00095927 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A762DB1820DE87ED00095927 /* SwiftPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPUITests.swift; sourceTree = "<group>"; };
 		A762DB1A20DE87ED00095927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A762DB2620E7A00000095927 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		A762DB2820E7C89D00095927 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A762DB0120DE87EC00095927 /* LaunchScreen.storyboard */,
 				A762DB0420DE87ED00095927 /* Info.plist */,
 				A762DB2620E7A00000095927 /* NumberViewController.swift */,
+				A762DB2820E7C89D00095927 /* CircleButton.swift */,
 			);
 			path = SwiftP;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				A762DB2720E7A00000095927 /* NumberViewController.swift in Sources */,
 				A762DAFB20DE87EC00095927 /* ViewController.swift in Sources */,
 				A762DAF920DE87EC00095927 /* AppDelegate.swift in Sources */,
+				A762DB2920E7C89D00095927 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
